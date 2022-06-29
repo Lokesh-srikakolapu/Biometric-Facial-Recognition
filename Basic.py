@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import face_recognition
 
-img1 = face_recognition.load_image_file('pics/Lokesh.jpeg')
+img1 = face_recognition.load_image_file('pics/Sundar.jpeg')
 img1 = cv2.cvtColor(img1,cv2.COLOR_BGR2RGB)
 
 # img2 = face_recognition.load_image_file('mypics/2 year.jpg')
@@ -11,7 +11,7 @@ img1 = cv2.cvtColor(img1,cv2.COLOR_BGR2RGB)
 # img5 = face_recognition.load_image_file('mypics/5 year.jpg')
 # img5 = cv2.cvtColor(img2,cv2.COLOR_BGR2RGB)
 
-img7 = face_recognition.load_image_file('pics/Lokesh.jpeg')
+img7 = face_recognition.load_image_file('pics/Sundar1.jpeg')
 img7 = cv2.cvtColor(img7,cv2.COLOR_BGR2RGB)
 
 fcLoc1 = face_recognition.face_locations(img1)[0]
